@@ -1,0 +1,7 @@
+- Integrated development Environment is the place where generally everyone uses to write the code.
+- To check whether JVM is there on the machine by running **java --version** command in there respective shells based on OS.
+- LTS stands for Long Term Service, i.e if anything goes wrong then we can contact them.
+- **java -jar** <program.java> to create a jar file to run.
+- **javac** <file.java> to create a class file.
+- Add JAVA_HOME in windows and add /bin path to path environmental variables. Restart may required for some version of windows.
+- 

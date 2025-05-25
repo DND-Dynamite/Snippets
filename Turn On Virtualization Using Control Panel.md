@@ -1,0 +1,1 @@
+Press **Windows** logo + R key to open Run command. At Run command, type control panel. Then press OK. When Control Panel opens, click Programs. Then click Turn Windows Feature on or Off. Finally, to enable Hyper-V in **Turn Windows** feature **on** or off, check the box beside Hyper-V. Then click OK
