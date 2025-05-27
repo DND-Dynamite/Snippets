@@ -57,5 +57,7 @@ To update `yt-dlp`:
 yt-dlp -U
 ```
 
-Let me know if you need further help! 🚀
+### **6. Use clipgrab app**
+
+Check for the same in ubuntu
 
