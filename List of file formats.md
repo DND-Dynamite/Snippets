@@ -1,0 +1,75 @@
+https://www.geeksforgeeks.org/techtips/list-of-file-formats/
+
+https://en.wikipedia.org/wiki/List_of_file_formats
+
+https://db.cs.cmu.edu/projects/future-file-formats/
+
+Common Data File Formats:
+
+- **CSV (Comma-Separated Values):** A simple, widely used format for storing tabular data where values are separated by commas. 
+- **JSON (JavaScript Object Notation):** A popular, human-readable format for representing structured data. 
+- **Parquet:** A columnar storage format optimized for high-performance analytics and massive datasets, often used with Spark, Snowflake, and AWS Athena. 
+- **Avro:** A data serialization system designed for data exchange between systems, programming languages, and processing frameworks. 
+- **ORC (Optimized Row Columnar):** A high-performance columnar storage format for large-scale data processing. 
+- **XML (Extensible Markup Language):** A versatile format for storing structured data with tags and attributes. 
+- **YAML (YAML Ain't Markup Language):** A human-readable data serialization format often used for configuration files. 
+
+Other Notable Formats:
+
+- **Apache Iceberg:** A table format designed for massive-scale data platforms. 
+- **Apache Arrow:** A robust development platform for in-memory analytics. 
+- **NDJSON (Newline-Delimited JSON):** A format that uses newlines to separate JSON objects, useful for streaming data. 
+- **HDF5 (Hierarchical Data Format version 5):** A flexible format for managing complex datasets. 
+
+Formats for Specific Use Cases:
+
+- **RAW:** A format for storing unprocessed image data, offering maximum detail and control for professionals. 
+- **JPEG/JPG:** A widely used format for compressing images with some loss of quality. 
+- **TIFF (Tagged Image File Format):** A lossless format for storing high-quality images. 
+- **WebP:** A modern image format offering better compression and quality compared to JPEG and PNG. 
+- **SVG (Scalable Vector Graphics):** A vector-based format for web images that can be resized without loss of quality. 
+- **MP4, MOV, WMV, WEBM, AVI:** Common video file formats, each with its strengths and weaknesses. 
+- **AAC, AIFF, ALAC, FLAC, MP3, WAV:** Various audio file formats, with options for both lossy and lossless compression. 
+
+- [](https://www.chaosgenius.io/blog/snowflake-file-formats/#:~:text=1\)%20Snowflake%20File%20Format%20CSV,Managing%20Snowflake%20File%20Formats)
+    
+    HOW TO: Create and Manage Snowflake File Formats (2025)
+    
+    1) Snowflake File Format CSV: For CSV files: 2) Snowflake File Format JSON: For JSON files: 3) Snowflake File Format Avro: For AVR...
+    
+    ![](data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKChULDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTE1Ojo6Iys/RDUtQzQ5Li0BCgoKDQwNGg8PGjclHyU3NTc3Nzc3Nzc3Nzc1LzY2MDc3Nzc3LTc1LzE3ODQ1LzYtLS0tLTU3LDg4LTczODYrK//AABEIACAAIAMBEQACEQEDEQH/xAAYAAADAQEAAAAAAAAAAAAAAAAEBQYHAv/EACwQAAEDAgQCCgMAAAAAAAAAAAECAwQFEQAGEjETIQcUFSJBUVVhkpREgaH/xAAXAQEBAQEAAAAAAAAAAAAAAAAEBQMG/8QAJhEAAgIBAgUEAwAAAAAAAAAAAQIAAxEEEiExQVFhEyJCkQUjgf/aAAwDAQACEQMRAD8A1Cr1Bml05+bJ16WEa16E6jb2HjiAilmwIZz0EiXekvL6tu0Pprw1dO4graLG5Y+4KrpFoJP5/wBReN1qIgH0Nx7fceUiqxqzBEyHxNKlFI4iCg3G/I4QiyZqa2qba3OUFUnMQIrsqW6lpDSdS3FbJHniNWpJwJ01rFjgTNsx5pjzpqXaPn2LTkBsJUz1QO3Vc3VcjyIFvbD668D3LMPSYD31Fv7iCUrMQjVBp6o9IMWa2m+uP1JLevkQO8BcWNj+sICjtDX6cshCUEHvmW1PqMSqRRKp8hEhBJSHEbEjfCEEh3o9TbXGDG9RcYEdwyy0EW75dtot735YiID0nQ2uc8JA195xU1Jy+9k8N8MauuEa9dze2nla1v7h1Y4cczJMY/aHz4g1KdmCoNdrv5MLPPiiKRxNja1+W9sIUTG/ZsPpizd55SwhqhqYBp5YKLmxYKdN/HblhSCQ7t+7D5z5h9RYYmx3I0ptLqHRpWhWyhiInDlLtlpU5HOT5yZln0SH8MMQseswbXagfMzg5Ny16LD+GEouYZvyGpHzMZQIESmxhGgR0MIBJDaBYAnfC0XEIXe997nJn//Z)
+    
+    Chaos Genius
+    
+    ![](data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAFIAUgMBEQACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAACAwEEAAUHBgj/xABCEAACAQIEAgUGCQsFAAAAAAABAgMEEQAFEiExQQYTIjJRBxRhcYGRFRdSYpSxwdLwFiMlM0VUVXKSstE1gqHC8f/EABoBAAMBAQEBAAAAAAAAAAAAAAABAgMEBgX/xAAxEQACAQIEAwUIAgMAAAAAAAAAAQIDERIhMUEEBVETUqGx0RQiQmFxgeHwFTI0kfH/2gAMAwEAAhEDEQA/AOX0x/Q1QLfL/twLQqf9mXH409tzp/64ZD1QMRtWVBFuC/U2EMRAB5pVXt+sfj6zhi6gOb9HQp5Bf7hhDAma+UUo8Cv24mRUNSnlqa8yiuLhSXPsF8NDepZzxzLVJEBdlUC3pP8A7g1YloOzH8zQxUsdyWIUAHj+Db34u+5JmYotPQw0qKGcsFBtvfn/AMke/E/IpPVlmPI6bq16wMXsNR8Th3JNzC/QdI9DVuY6Hlk6yIRkKq3NrXUtYi3Fr78iLYQ2ZnKZBT0EEtJVVklTcWjZLKVN73NhuBp57knDSuRJ2zPOfCMMdTKzLLpcL3QL8D/nA1YIu6uBFVoKSZdD6nLkG/C5PLDSJcs7ANWQnKBSgMJbC55cb4VjQX5yklFHANWtLHcbbX/ziJlw1By6ZIKh5HDd3SCvK+BDtcZLUxPmxqCGMYNwBx4Y0hFyJeWQyWrikzJJu0Y4x2dufj+PDCllkEVcmWrjfMUlBOiMdklefq/HDDjFtXQPLIY2euGIWBSAdjq44eFEnr28keZm/wClKOx+Y+OX2iPQ+W+bU274WXKjyXZhIulM0g3a/b1G23LbDXERWxMuZ038LKb+STM2N/hWk4W7jYHxEXsC5pBfCwx5JcyCgfCdHcAjuNhriY9BPmcL/wBWL+KPNLW+FaT+hsL2hdC/5Wn3WSnklzNf2rR28ND4HUTQLnFOPwsCTyTZqkTGLMaN34hbMt/Re2KU7gudUb2cWeFrKWehqpqarieKeJyro3EEfj246aa90+oqkaixRd0xQ4Dlzxi3dmyVkQTYXxvbCjHXMDqyePHGGI07I+h/hit87kpjBTdZ58KONtbadXUibU22wtsBzNscWFWueU7KFsV9r+Nh6Z2DlVRWtCmqCIsyCUEEgsvHjpuuzEcPVhYM7E9j76j1BmzvzLWtfCrPGskjtSuHVURVJJBsQe2Nvbh4L6DVHHnF/wCyH6RQJoXzWpEj6hoYKCpGqwO+wOk2PDDVNi7B9Q8tz6GvqEpxTzpKVUuSoKIxRX0kj5rDfhi1T3M6tFwjivl+bFaTpVRrDLN1FQyRK0jFNBHVhdZcHVYi3hi1TF7LNtK6z89LFqjzUVmYNTxwusSo5EjEdsq+g2APC4PG2NFE56tPs4Ym8/xc435UWVemtaNO5SK9v5Bi7yWSZ6blLT4SP38zyfWC1tJt68TY+piMLgixB29OKbkycjOs9B9+FYeI+npaWkmjkjlghdJWBkVlBDtwufE7D3DHz7s8epTi7rYW1RQwyrQl4UcqFENtrWNh4cAdvQcNJvMMM2sYUVFRQxiOGmp0jsyhUjUCx7wt6bb+rFpNkSqTbzYiaDK6KIVMlPSxJANm6sdgcdrC/Pl441SYlUqzdk3mBCcqp4GroFpYooI3UzKgGhEuGF+QBUi3K2NFFmc3VbwO7b2+o1aCgRXjWkpgrghlEa9oEWIPsxoomMq1TW7DipqeGZ5ooIklk77qgDN6zzxoomM6spKzeRxfyp0w/KesqdV9ol02+YMRPKR7Dk2fBx+/meZny/qXgAk19a+nu2tvhH0kZVUIjnhhQ9qQ235b4Nx7DBk0zAMsiEHcbHASdppuikjxaal4oQpACRqbMAiqWOkjtdnZr8zsL2HLi6Hm58Wk8jaZpkz11TJKtUIVliMbhI+0wKsLE3AI7V7EHhsRfDjkjmhxChGzVyu3RuLrleOVEQSawnUiydw9jfsklNz8440RL4t2zX7n6iY+icCCQPUmRXW2h4wQLMuk28QiKnsvjRImXHN7fv8A27E1fRIVCyJ57oVxUAWhFx1pmuL33A67gfk8rnFqIo8ww2eHpv0w+niWKbo4lPXQVAqWcQ8FdTfvO17g9467MTfVYX540UDGpxzlBxtr6JdNMsuhvcapHz9TjflQ3z2qFuLxWPj2Bjnqr3j2/Jv8OP38zQVParaActZP1HEH0kBOdWbQeCRFt/UcINi2ZdBKg207ccMR16Kuz6VmHUJHGDEEZqZruGndC9tW1o1R9PLVv4YxUEeUlGgtX13+SfnkKOZ58lHGz0Qed1RyEpnAF1uyHc2N77/VztRQnToOTV8vquuo+mrM1SqghnjeWNp5VkbzdgVXWdO/dtp078/Ti1EwqRouDksslv8ALzuJrJqtJpgrV4kNYQDDGzoiaUIYgA3FuXAsTfhcaJCjgsr2tbfXV/v0sKM+YoKozDMpACdaRoR2+tOgIQO5o4kX2A53xaQrUm4pYfxbO+et9E9/kKmfMY4JOtmrai9FvIkDxEEQ98DhqLg9mwYEjawxVmVCNKUsklnpdPfT6W30PUR6+rXrLdZYarePPHRGJxqmruxxTyoSv+VtWgY6QsRA9Ogb4466tUPZcrSXBr7+Z5Y1M8siM8hugOkgAWxizvhqSaiUTdZru2nTdhfbwwIc9iWrahiSWFzvwwyDt3xidF/4g/0aX7uISR5R8p43ueK9TPjD6MH9oP8ARpPu4tOJD5Pxvc8V6kfGH0Y/f3+jSfdxopQ6mb5Px3c8V6kfGF0Y/iD/AEaX7uK7WHUX8Lx3c8V6kfGF0Y/f3+jS/dxoqtPqOPJeMXweKM+MPox/EJPo0v3cWq1PqdEOT8V3fFAv5Q+jQjZlrZHIFwggcFvQLgYr2iktzop8p4i+a8Uck6T5s2eZxVZg0egSsNCcdKgWAPp2xwznjm5HoqNFUaKprOxqo9jviZGlPUxzvzwR0CebIsMMzF4AM3wDJsbXOAdjLEC554BElSOPHAAUdwTfCkVEC58TgERdvE4dkK7J1t8o+/CsO7M1N8o+/BZBdkam8T78FkF2GR+bDemxxRJsqVKary2SLqtNZGbrID3x6R+OWAB1HDDWZeUCgSWsT4HE2LbzuU0hV6KTs2lhbteNvx9WLjmTJWZjInmdPMF3V9Lj24TEMzPqw6dUoAsb2GJkXE18a6iR6MNCZF7WIJDYBMnrX+UffgAkXY8d8ABXfxX+kYABT9TL61+3AGxYykkVi2PI4YjZZXtX1gHC/D2nCHsAR+kK0ctBwRHLRFRP9Ll/nH2Yt6kg1feX24mZUCvD+s/2nEoJaCzhiZHLAIYn2YYwsAH/2Q==)
+    
+- [](https://www.quadratichq.com/blog/common-data-file-formats-explained)
+    
+    Common Data File Formats Explained - Quadratic
+    
+    15 Jan 2025 — Common data file formats explained * CSV. * Parquet. * JSON. * ORC. * Avro. * YAML. * TOML. * NDJSON.
+    
+    ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAALVBMVEVHcEzLiZnRiJuLzoWOy4mNzYKbvbRWTWFOQVNs2/9p1f9dV2ts1P//yAD/yAD8lMv3AAAADnRSTlMA/3h+/3Y2eDZ5dv//gqFwdy4AAABHSURBVHgBY8AGBIFAyMQFCJAFQugtgOkOJSBQSw0NDQ2GCpQDQUXmqlWrVkIFdgPB9jlngABZYA39BRDuwAfuvQOCwSeAAACLSoOxG4CcwAAAAABJRU5ErkJggg==)
+    
+    Quadratic
+    
+    ![](data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAFIAUgMBIgACEQEDEQH/xAAZAAEAAwEBAAAAAAAAAAAAAAAAAgMEAQf/xAApEAACAgEEAAUDBQAAAAAAAAAAAQIRAxIhMVEEEyJBYQUy8BVicYGh/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oADAMBAAIRAxEAPwD2/Unww5Ipn6LcVfwQ12rC4v8AM9VVt2WGTfs0Y/sVuwWJgAIAAAAAAAAoy8lUl/XyXZISbbv/AAhCLkrRWognWz5NOPgr8q16kTxRlG9VfBEqwABAAAAAAAAAAAAABxtJNt0l7nITjOKlCSlF8NO0zmfEs2HJik2ozi4trndGKf0nFPJ5ks2bXT39Ozu7rTV/nO4G2WXHGSjKcVJ8JvdktUdWnUtVXV70YZfSsEoQi55fSlFNNXSba3r5D+lYHGEdeVaUkmmr21e9fuf8UqqgN4MH6T4fbTKcWlVqraquvyyzwfgMfhJ6sc5t6XF6q33u+OeQNYAA43XItFOWZCOR+zLg1AjD7VuSIAAAAAAAAAAAzZFqbSIQhTo10ujmhKVoujkE0tyYBAAAAAAAAAAAFNvti32wAFvti32wAFvti32wAFvti32wAFvti32wAFvtgAD/2Q==)
+    
+- [](https://edgedelta.com/company/blog/parquet-data-format#:~:text=By%202025%2C%20the%20global%20data,ORC%2C%20CSV%2C%20and%20JSON.)
+    
+    Parquet Data Format: Exploring Its Pros and Cons for 2025
+    
+    9 May 2025 — By 2025, the global data production is expected to exceed 181 zettabytes. Advancements in IoT, AI, and real-time analyti...
+    
+    ![](data:image/png;base64,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)
+    
+    Edge Delta
+    
+    ![](data:image/jpeg;base64,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)
+    
+- Show all
+    
+
+AI responses may include mistakes. [Learn more](https://support.google.com/websearch?p=ai_overviews&hl=en-IN)
+
+![[Pasted image 20250612144531.png]]
